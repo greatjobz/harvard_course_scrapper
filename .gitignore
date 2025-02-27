@@ -1,0 +1,33 @@
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment (if using venv)
+venv/
+env/
+
+# Jupyter Notebook checkpoints (if using Colab)
+.ipynb_checkpoints/
+
+# Environment variables & sensitive files
+.env
+config.json
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Dependency files (optional, since you have requirements.txt)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data files (optional)
+*.csv  # Ignore all CSV files if they're generated dynamically
+*.xlsx  # Ignore Excel files if scraped data is stored there
+scraped_data/
+
+# Git-specific
+.git/
